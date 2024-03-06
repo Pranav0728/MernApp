@@ -1,0 +1,71 @@
+.container{
+    font-size: 2rem;
+    margin: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+   gap: 3.2rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+  
+  .image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .registrationform {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form {
+    
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .error{
+    display: flex;
+    justify-content: center;
+  }
+  .error h1{
+    font-size: 10rem;
+  }
+  
